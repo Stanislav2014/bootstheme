@@ -1,0 +1,63 @@
+
+/* Спецификация*/
+/* Первый экран*/
+.header {
+    background-color: #2d3136;
+    color: #d7d7d7;
+    padding-top: 55px;
+    padding-bottom: 95px;
+}
+.centerlogo {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.submit {
+    font-family: "Roboto";
+    background-color: #be393b;
+}
+
+.comment {
+    padding-top: 285px;
+    padding-bottom: 270px;
+
+}
+.h1 {
+    font-family: "Roboto";
+}
+.h2 {
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+p.col-lg-4 {
+    color: #767582;
+}
+
+.textform {
+    font-size: 70px;
+    line-height: 65px;
+    color: #d7d7d7;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.t {
+    height: 649px;
+}
+
+.vasya {
+    background: #4b596c;
+    width: 300px; /* Ширина слоя */
+    margin: 7px; /* Значение отступов */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Параметры границы */
+}
+.comments {
+    font-size: 86px;
+    line-height: 65px;
+    color: #37414e;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+}
