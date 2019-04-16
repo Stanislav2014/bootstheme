@@ -12,14 +12,54 @@
     padding-bottom: 40px;
 }
 
-.submit {
+.forminput {
+    font-size: 35px;
+    line-height: 33px;
+    color: #d7d7d7;
     font-family: "Roboto";
+    font-weight: 500;
+
+}
+.formlabel {
+    color: #d7d7d7;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.form-control {
+    border-radius: 5px;
+    background-color: #2f3338;
+    border: 2px solid;
+}
+
+.form-control:focus {
+    background-color: #2f3136;
+    border-color: #be393b;
+    box-shadow: none;
+
+}
+
+.submit {
+    font-size: 36px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
     background-color: #be393b;
 }
 
-.comment {
+/* СЕКЦИЯ POSTS */
+
+.posts {
     padding-top: 285px;
     padding-bottom: 270px;
+
+}
+
+.even {
+
+}
+.odd {
 
 }
 .h1 {
