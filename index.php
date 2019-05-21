@@ -20,18 +20,18 @@ get_header();
                 <div class="col-5 col-xl-5">
                     <div class="form-group forminput">
                         <label for="exampleInputName" class="formlabel">Имя</label>
-                        <input type="text" class="form-control" id="exampleInputName" placeholder="Вася">
+                        <input type="text" class="form-control" id="exampleInputName" placeholder="Вася" name="comment_name">
                     </div>
                     <div class="form-group forminput">
                         <label for="exampleInputEmail">E-Mail</label>
-                        <input type="email" class="form-control" id="exampleInputEmail">
+                        <input type="email" class="form-control" id="exampleInputEmail" name="comment_email">
                     </div>
                 </div>
 
                 <div class="col-6 col-xl-6 ml-auto">
                     <div class="form-group forminput">
                         <label for="exampleInputComment">Комментарии</label>
-                        <textarea class="form-control" rows=4 id="exampleInputComment"></textarea>
+                        <textarea class="form-control" rows=4 id="exampleInputComment" name="comment_content"></textarea>
 
                     </div>
                 </div>
@@ -40,7 +40,7 @@ get_header();
 
             <div class="row">
                 <div class="col-3 col-xl-3 offset-9 offset-xl-9">
-                    <button type="submit" class="btn btn-block submit">Записать</button>
+                    <button type="submit" id="comment_send" class="btn btn-block submit">Записать</button>
                 </div>
 
             </div>
@@ -63,7 +63,11 @@ get_header();
                 <h3></h3>
                 <p> </p>
             </div>
-        </div>
+            <div class="col-lg-4">
+                <h2>Вася</h2>
+                <h3></h3>
+                <p> </p>
+            </div>
 
     </div>
 </section>
@@ -82,6 +86,4 @@ get_header();
     </div>
 </section>
 
-</body>
-
-</html>
+<?php get_footer(); ?>
